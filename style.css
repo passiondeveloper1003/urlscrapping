@@ -1,0 +1,122 @@
+body {
+    background: #3e4144;
+}
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+}
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;    
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+}
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: #666;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+button {
+    color: #fff;
+    background: #55a1ff;
+    border: 1px solid transparent;
+    outline: 0;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: .3rem;
+    padding: 0 1rem;
+    transition:  all .3s;
+}
+button:not(.disable):hover {
+    border-color: #55a1ff;
+    color: #55a1ff;
+    background-color: white;
+}
+button.disable {
+    cursor: not-allowed;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form.main {
+    width: 1200px;
+}
+
+.add_url {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.add_url div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add_url input {
+    margin: 0 1rem;
+}
+
+#url_table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #url_table td, #url_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #url_table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #url_table tr:hover {background-color: #ddd;}
+  
+  #url_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #55a1ff;
+    color: white;
+  }
+  .site_link {
+    max-width: 40%;
+  }
